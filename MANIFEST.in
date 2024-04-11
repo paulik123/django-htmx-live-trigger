@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include django_htmx_live_trigger/static *
+recursive-include django_htmx_live_trigger/templates *
+recursive-include django_htmx_live_trigger/templatetags *
+recursive-include docs *
