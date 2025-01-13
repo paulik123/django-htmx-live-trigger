@@ -1,6 +1,6 @@
 ### Trigger HTMX events usign Django Channels and websockets
 
-An example project can be found at https://github.com/paulik123/django-htmx-live-trigger
+An example project can be found at https://github.com/paulik123/django-htmx-live-trigger-example
 
 This app assumes you have working `Django + Channels` project.
 If you don't know how to set it up, you can follow this tutorial:
