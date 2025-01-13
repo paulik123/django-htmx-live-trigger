@@ -74,7 +74,7 @@ trigger("<group_name>", json.dumps({"event1": "value1", "event2": "value2"}))
 <body hx-ext="ws-events" ws-events-connect="/ws/events/notifications/">
     <div hx-get="{% url 'fetch_notifications' %}" hx-trigger="new-notification from:body"></div>
 
-    <script src="https://unpkg.com/htmx.org@1.9.11/dist/htmx.min.js"></script>
+    <script src="https://unpkg.com/htmx.org@2.0.4/dist/htmx.min.js"></script>
     <script src="{% static 'django_htmx_live_trigger/js/htmx-ws-events.js' %}"></script>
 </body>
 ...
